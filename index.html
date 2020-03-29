@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Paint.js"></script>
+    <script src="js/User.js"></script>
+    <script src="The-Avengers-Theme-Song.mp3"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-database.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCvgCbT5MfdhXtnYB0mflyNzSN7gg715oc",
+        authDomain: "affinity-paintx.firebaseapp.com",
+        databaseURL: "https://affinity-paintx.firebaseio.com",
+        projectId: "affinity-paintx",
+        storageBucket: "affinity-paintx.appspot.com",
+        messagingSenderId: "772106981691",
+        appId: "1:772106981691:web:e8999ac19c3eead7f7271e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      
+      <div id = "canvascontainer"></div>
+
+</body></html>
